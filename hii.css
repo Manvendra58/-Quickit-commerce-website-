@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color:  whitesmoke;
+    width: 100%;
+    height: 88px;
+    align-items:center;
+     justify-content: space-evenly;
+}
+.loc{
+        width: 320px;
+        padding-left: 45px;
+
+}
+
+#bb{
+    display: flex;
+     padding-left: 6%;
+    height:200px;
+    text-align: center;
+    gap: 20px;
+
+}
+#bc{
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 100%;
+     padding-left: 5%;
+
+}
+
+#img{
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: rgb(247, 247, 237);
+    width: 100%;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 22px;
+    color: #111;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 34% 66%;
+    padding: 0 0 38px;
+}
+.useful-links {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.links-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1.5fr;
+    column-gap: 12px;
+}
+ul {
+    list-style: none;
+}
+li {
+    color: #808080;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+ 
+.categories {
+    width: 100%;
+}
+.categories-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr 1fr;
+    column-gap: 25px;
+    width: 100%;
+}
+.footer-bottom {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 25px;
+    gap: 15px;
+}
+
+.p {
+    font-size: 12px;
+    color: #808080;
+    white-space: nowrap;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.socials a {
+    width: 40px;
+    height: 40px;
+    background: #222;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+ .disclaimer {
+    padding: 12px 12px 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    padding-left: 20%;
+    display: flex;
+ }
