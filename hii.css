@@ -145,34 +145,30 @@ li {
     padding-left: 20%;
     display: flex;
  }
-@media (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 900px) {
     header {
-        flex-wrap: wrap;
         gap: 10px;
+        padding: 12px 2%;
     }
 
-    input {
-        width: 90%;
-    }
-
-   
-    .banner img {
-        height: auto;
-    }
-
-    .offers {
-        flex-wrap: wrap;
-    }
-
-    .offers img {
-        width: 30%;
-    }
-
-    .categories img {
-        width: 100px;
+    .loc {
+        width: 260px;
     }
 
     .links {
-        width: 48%;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .links-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .categories-grid {
+        gap: 12px;
+    }
+
+    #img {
+        height: 160px;
     }
 }
+
