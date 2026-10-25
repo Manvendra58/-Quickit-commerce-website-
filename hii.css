@@ -63,8 +63,8 @@ h3 {
     color: #111;
 }
 .links {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+grid-template-columns: 34% 66%;
     width: 23%;
      width: 100%;
     padding: 0 0 38px;
