@@ -21,6 +21,7 @@ header{
 
 }
 
+
 #bb{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -157,6 +158,8 @@ width: 100%;
 padding: 10px 12px;
         background-color: whitesmoke;
     }
+    .sea{
+        width:100%;
 
     /* Row 1: Name and delivery address */
     header .name {
