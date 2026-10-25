@@ -145,7 +145,7 @@ overflow-wrap: anywhere;
 display: block;
 width: 100%;
  }
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width:100px) and (max-width: 900px) {
     header {
         gap: 10px;
         padding: 12px 2%;
