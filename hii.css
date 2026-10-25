@@ -150,11 +150,11 @@ width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        gap: 14px 16px;
         width: 100%;
         height: auto;
         margin: 0;
-        padding: 15px;
+        gap: 8px 12px;
+padding: 10px 12px;
         background-color: whitesmoke;
     }
 
