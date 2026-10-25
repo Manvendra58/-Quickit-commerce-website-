@@ -67,8 +67,6 @@ h3 {
     flex-direction: column;
     width: 23%;
      width: 100%;
-    display: grid;
-    grid-template-columns: 34% 66%;
     padding: 0 0 38px;
 }
 .useful-links {
@@ -159,6 +157,9 @@ width: 100%;
 
     .links {
         grid-template-columns: minmax(0, 1fr);
+          display: flex;
+        flex-direction: column;
+        gap: 25px;
     }
 
     .links-grid {
@@ -172,5 +173,12 @@ width: 100%;
     #img {
         height: 160px;
     }
+    
+
+    .useful-links,
+    .categories {
+        width: 100%;
+    }
+}
 }
 
