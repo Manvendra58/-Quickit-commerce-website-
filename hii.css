@@ -34,12 +34,13 @@ header{
     flex-wrap: nowrap;
     display: flex;
     width: 100%;
-     padding-left: 5%;
+     padding: 10%;
 
 }
 
 #img{
     height: 200px;
+    width: 80%;
 }
 
 footer {
