@@ -163,7 +163,9 @@ padding: 10px 12px;
     grid-column: 1 / -1;
     min-width: 0;
 }
-
+header .sea input {
+    width: 100%;
+}
     /* Row 1: Name and delivery address */
     header .name {
         grid-column: 1;
